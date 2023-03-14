@@ -12,11 +12,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-route::get('/categorias', 'CategoriesController@index' );
-
 
 Route::get('/', function () {
-    return view('principal');
+    return view('auth.login');
 });
 
 Auth::routes();

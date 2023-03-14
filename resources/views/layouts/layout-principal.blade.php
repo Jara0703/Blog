@@ -42,7 +42,6 @@
 <nav class="navbar bg-dark mt-0">
     <div class="container-fluid">
         <ul>
-            <li><a href="/">Home</a></li>
             <li class="ps-4"><a href="home">Dashboard</a></li>
             <li class="ps-4"><a href="create_thread">Crear Hilo</a></li>
         </ul>
